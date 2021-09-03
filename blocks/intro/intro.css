@@ -1,5 +1,3 @@
-@import url(../intro/intro.css);
-
 .intro {
     display: flex;
     flex-direction: column;
