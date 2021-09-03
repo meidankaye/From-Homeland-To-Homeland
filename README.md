@@ -1,20 +1,20 @@
 # Project 3: From Portland to Portland
 
 ### Overview
-* Intro
-* Figma
-* Images
+* Project Name
+* Project Description
+* Technologies & Techniques
 
-**Intro**
+**Project Name**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+From Portland to Portland
 
-**Figma**
+**Project Description**
 
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
+A single web-page Project describing a travel plan across the United States, with various travel locations and images displayong the beauty of nature and architechture in the USA.
 
-**Images**
+**Technologies & Techniques**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+This Project utilizes Flexbox and Flex properties, Grid layouts and adaptive Grid layouts. The webpage is adaptive and fits multiple screen sizes using media quarries and reactive measurements. Project design and specifications were taken from Figma, photos and fonts were exported manually from Figma.
 
-Good luck and have fun!
+* My GitHub Page: https://github.com/meidankaye

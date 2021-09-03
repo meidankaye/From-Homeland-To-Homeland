@@ -1,0 +1,18 @@
+@import url(../cover/cover.css);
+
+.cover {
+    margin: 92px 0 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: 89px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 64px;
+    }
+}

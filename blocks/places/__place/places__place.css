@@ -1,0 +1,31 @@
+.places__place {
+    display: grid;
+    margin: 0 0 80px;
+    gap: 48px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    max-width: calc(287px * 3);
+}
+
+.places__place:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__place {
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__place {
+        gap: 48px 28px;
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__place {
+        row-gap: 30px;
+        margin-bottom: 48px;
+    }
+}
