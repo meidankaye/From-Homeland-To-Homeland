@@ -12,16 +12,16 @@
       <header class="header">
         <img src="./images/logo.svg" alt="The USA Logo" class="logo" />
         <div>
-          <span class="header__lang header__lang_underline">En</span>
-          <span class="header__lang">Es</span>
+          <a href="#" class="header__lang header__lang_underline">En</a>
+          <a href="#" class="header__lang">Es</a>
         </div>
       </header>
       <main>
         <section class="lead">
           <h1 class="lead__title">From Portland to Portland</h1>
-          <h3 class="lead__subtitle">
+          <p class="lead__subtitle">
             An epic bicycle journey from Portland, ME. to Portland, OR
-          </h3>
+          </p>
           <img
             src="./images/lead-mountains.jpg"
             alt="Mountains"
@@ -33,9 +33,9 @@
           <h2 class="intro__title">
             Know the country you live in a little better
           </h2>
-          <h4 class="intro__subtitle">
+          <p class="intro__subtitle">
             That's exactly what we have arranged for you via this travel story
-          </h4>
+          </p>
           <p class="intro__text">
             Need more action and adventure in your life instead of the same old
             routine? From Portland, Maine to Portland, Oregon we're going to
@@ -299,31 +299,36 @@
             class="cover__background"
             target="_blank"
           >
-            <h3 class="cover__title">Historic Route 66</h3>
+          <img src="./images/cover-route-66.jpg" alt="Route 66" class="cover__image">
+          </a>
+          <div class="cover__content">
+            <h2 class="cover__title">Historic Route 66</h2>
             <p class="cover__subtitle">
               The Main Street of America from Santa Monica, Cal. to Chicago,
               Ill.
-            </p>    
-          </a>
+            </p>
+          </div>
         </section>
       </main>
       <footer class="footer">
+        <nav class="footer__list">
           <ul class="footer__link-box">
-            <li>
+            <li class="footer__list_item">
               <a href="https://yandex.com/maps" class="footer__link">Maps</a>
             </li>
-            <li>
+            <li class="footer__list_item">
               <a href="https://yandex.com/weather/moscow" class="footer__link"
                 >Weather</a
               >
             </li>
-            <li>
+            <li class="footer__list_item">
               <a href="https://calendar.yandex.ru" class="footer__link"
                 >Calendar</a
               >
             </li>
           </ul>
-          <p class="footer__copyright">&#169; 2021. Meidan Kaye</p>
+        </nav>
+        <p class="footer__copyright">&#169; 2021. Meidan Kaye</p>
       </footer>
     </div>
   </body>

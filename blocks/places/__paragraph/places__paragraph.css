@@ -7,7 +7,7 @@
     margin: 0 0 25px;
 }
 
-.places__paragraph:nth-child(3n) {
+.places__paragraph:last-child {
     margin: 0;
 }
 

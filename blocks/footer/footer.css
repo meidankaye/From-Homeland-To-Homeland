@@ -3,7 +3,6 @@
     justify-content: space-between;
     padding: 0;
     margin: 92px 0 0;
-    min-height: 18px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +22,6 @@
         margin: 64px 0 0 16px;
         flex-direction: column;
         justify-content: space-between;
-        min-height: 198px;
         max-width: 100%;
     }
 }

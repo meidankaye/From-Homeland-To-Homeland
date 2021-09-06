@@ -10,7 +10,6 @@
     .footer__link-box {
         flex-direction: column;
         justify-content: space-between;
-        min-height: 136px;
         max-width: 100%;
     }
 }
