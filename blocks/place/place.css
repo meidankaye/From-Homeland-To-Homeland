@@ -1,0 +1,24 @@
+.place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 983px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        max-width: 320px;
+    }
+}

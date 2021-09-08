@@ -3,7 +3,6 @@
     margin: 0 0 80px;
     gap: 48px 40px;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    max-width: calc(287px * 3);
 }
 
 .places__item:last-of-type {
