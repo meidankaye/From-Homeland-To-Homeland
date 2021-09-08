@@ -1,9 +1,4 @@
 .cover {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    align-items: center;
-    justify-items: center;
     max-width: 100%;
     margin: 92px 0 0;
 }

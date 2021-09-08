@@ -2,7 +2,7 @@
     display: grid;
     margin: 0 0 80px;
     gap: 48px 40px;
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(288px, 460px) minmax(288px, 484px));
 }
 
 .places__item:last-of-type {
@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 768px) {
     .places__item {
+        grid-template-columns: repeat(auto-fit, minmax(288px, 320px));
         gap: 48px 28px;
         margin-bottom: 72px;
     }
