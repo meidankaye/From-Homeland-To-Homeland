@@ -1,0 +1,9 @@
+.place__credit-box {
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+    .place__credit-box {
+        margin: 0 16px;
+    }
+}

@@ -1,15 +1,15 @@
-.place__url-heading {
+.place__artist {
     font-family: 'Inter', sans-serif;
     font-weight: normal;
     font-size: 12px;
     line-height: 170%;
     color: #AAAAAA;
     letter-spacing: 0.2em;
-    margin: 0 0 12px;
+    margin: 0 0 8px;
 }
 
 @media screen and (max-width: 768px) {
-    .place__url-heading {
+    .place__artist {
         line-height: 100%;
     }
 }

@@ -10,14 +10,8 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .page__wrapper {
-        margin: 34px 0 24px;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .page__wrapper {
-        margin-top: 20px;
+        margin: 20px 0;
     }
 }
