@@ -1,0 +1,22 @@
+.cover__link {
+    position: relative;
+    margin: 32px 0 0;
+    max-width: 137px;
+    max-height: 48px;
+}
+
+.cover__::before {
+    content: '';
+    opacity: 0.3;
+    transition: 0.3s;
+    position: absolute;
+    background: #2A2C2F;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.cover__link:hover {
+    opacity: 0.8;
+}
