@@ -4,12 +4,6 @@
     margin: 34px auto 24px;
 }
 
-@media screen and (max-width: 1280px) {
-    .page__wrapper {
-        margin: 34px 48px 24px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .page__wrapper {
         margin: 20px 0;

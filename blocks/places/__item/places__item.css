@@ -9,11 +9,12 @@
     margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .places__item {
         grid-template-columns: repeat(auto-fit, minmax(288px, 320px));
         gap: 48px 28px;
         margin-bottom: 72px;
+        align-self: center;
     }
 }
 
