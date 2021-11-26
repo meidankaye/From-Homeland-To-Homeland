@@ -4,16 +4,3 @@
     min-width: 100%;
     background: #2A2C2F;
 }
-
-@media screen and (max-width: 1024px) {
-    .page {
-        min-width: 768px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .page {
-        min-width: 320px;
-    }
-}
