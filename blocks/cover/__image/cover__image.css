@@ -6,3 +6,15 @@
     z-index: 1;
     position: relative;
 }
+
+@media screen and (max-width: 768px) {
+    .cover__image {
+        min-height: 764px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__image {
+        min-height: 254px;
+    }
+}

@@ -10,11 +10,13 @@
 @media screen and (max-width: 768px) {
     .cover {
         margin-top: 89px;
+        min-height: 746px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover {
         margin-top: 64px;
+        min-height: 254px;
     }
 }
