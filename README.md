@@ -1,4 +1,4 @@
-# Project 3: From Portland to Portland
+# Project 3: From Homeland to Homeland
 
 ### Overview
 * Project Name
@@ -7,11 +7,11 @@
 
 **Project Name**
 
-From Portland to Portland
+From Homeland to Homeland
 
 **Project Description**
 
-A single web-page Project describing a travel plan across the United States, with various travel locations and images displayong the beauty of nature and architechture in the USA.
+A single web-page Project describing the hometowns of various team-members, creators and professionals from across the Practicum team, with attached images of many locations and descriptions of the hometowns' history.
 
 **Technologies & Techniques**
 
