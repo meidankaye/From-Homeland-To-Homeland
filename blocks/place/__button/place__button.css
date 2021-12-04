@@ -1,18 +1,25 @@
 .place__button {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
     max-width: 248px;
+    max-height: 48px;
+    padding: 13px 0;
     background: #0278FE;
     border-radius: 4px;
     text-decoration: none;
+    text-align: center;
+    grid-area: button;
 }
 
 .place__button:hover {
     background: #0063D2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__button {
         min-width: 288px;
         justify-self: center;
