@@ -33,6 +33,10 @@
     z-index: 1;
 }
 
+.cover:hover .cover__overlay {
+    opacity: 0;
+}
+
 @media screen and (max-width: 768px) {
     .cover {
         max-height: 746px;
