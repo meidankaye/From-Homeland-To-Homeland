@@ -3,12 +3,6 @@
     grid-row: span 3;
 }
 
-@media screen and (min-width: 1000px) {
-    #last-box {
-        grid-row: span none;
-    }
-}
-
 @media screen and (max-width: 320px) {
    .place__paragraph-box {
        margin: 0 16px 0;

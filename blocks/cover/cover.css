@@ -15,7 +15,7 @@
     z-index: 1;
 }
 
-.cover::before {
+.cover::after {
     content: '';
     opacity: 0.3;
     transition: 0.3s;
@@ -28,13 +28,9 @@
     z-index: 1;
 }
 
-.cover:hover {
+.cover:hover::after {
     opacity: 0.8;
     z-index: 1;
-}
-
-.cover:hover .cover__overlay {
-    opacity: 0;
 }
 
 @media screen and (max-width: 768px) {
