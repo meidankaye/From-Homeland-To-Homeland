@@ -1,6 +1,5 @@
 .place__credit-box {
     align-self: flex-end;
-    grid-area: credit;
 }
 
 @media screen and (max-width: 320px) {

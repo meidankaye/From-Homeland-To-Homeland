@@ -1,8 +1,3 @@
-.place__paragraph-box {
-    grid-area: text;
-    grid-row: span 3;
-}
-
 @media screen and (max-width: 320px) {
    .place__paragraph-box {
        margin: 0 16px 0;

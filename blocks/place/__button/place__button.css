@@ -12,7 +12,6 @@
     border-radius: 4px;
     text-decoration: none;
     text-align: center;
-    grid-area: button;
 }
 
 .place__button:hover {

@@ -1,5 +1,0 @@
-@media screen and (min-width: 1000px) {
-    .place__paragraph-box_last-box {
-        grid-row: span none;
-    }
-}
