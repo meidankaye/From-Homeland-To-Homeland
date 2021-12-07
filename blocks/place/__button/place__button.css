@@ -13,7 +13,7 @@
     text-decoration: none;
     text-align: center;
     grid-area: button;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .place__button:hover {
